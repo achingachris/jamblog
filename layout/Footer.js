@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 const Footer = () => {
   return (
     <div className='container'>
@@ -13,6 +15,7 @@ const Footer = () => {
 
         <ul className='nav col-md-4 justify-content-end'>
           <li className='nav-item'>
+            
             <a href='#' className='nav-link px-2 text-muted'>
               Home
             </a>
