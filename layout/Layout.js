@@ -1,11 +1,11 @@
-import NavigationBar from "./NavigationBar"
+import NavigationBar from './NavigationBar'
 import Footer from './Footer'
 
 const Layout = ({ children }) => {
   return (
     <>
       <NavigationBar />
-      <main>{children}</main>
+      <main className='container'>{children}</main>
       <Footer />
     </>
   )
