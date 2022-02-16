@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Layout from '../layout/Layout'
 
 const index = () => {
@@ -107,9 +108,9 @@ const index = () => {
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Reiciendis aliquid atque, nulla.
                   </p>
-                  <a class='btn btn-primary' href='#!'>
-                    Read more →
-                  </a>
+                  <Link href='/article/read-more-here'>
+                    <a class='btn btn-primary'>Read more →</a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -129,9 +130,9 @@ const index = () => {
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Reiciendis aliquid atque, nulla.
                   </p>
-                  <a class='btn btn-primary' href='#!'>
-                    Read more →
-                  </a>
+                  <Link href='/article/read-more-here'>
+                    <a class='btn btn-primary'>Read more →</a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -151,9 +152,9 @@ const index = () => {
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Reiciendis aliquid atque, nulla.
                   </p>
-                  <a class='btn btn-primary' href='#!'>
-                    Read more →
-                  </a>
+                  <Link href='/article/read-more-here'>
+                    <a class='btn btn-primary'>Read more →</a>
+                  </Link>
                 </div>
               </div>
             </div>
